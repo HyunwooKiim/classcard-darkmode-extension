@@ -17,10 +17,26 @@
     border-bottom: 1px solid #404040 !important;
   }
 
-  /* 핵심 카드 클래스 - flip-card-front */
+  /* 핵심 카드 클래스들 */
   .flip-card-front {
     background-color: #2d2d2d !important;
     color: #e0e0e0 !important;
+  }
+
+  .CardItem {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #404040 !important;
+  }
+
+  .start-opt-box {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 특별한 텍스트 클래스 - 하얀색으로 */
+  .spell-content.font-32 {
+    color: #ffffff !important;
   }
 
   /* bg-success2 클래스를 검은색으로 */

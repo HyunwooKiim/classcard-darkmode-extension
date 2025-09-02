@@ -1,0 +1,210 @@
+.dark-mode-enabled {
+  /* 기본 배경과 텍스트 */
+  body {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 메인 컨테이너들 */
+  .container, .main-container, .content, .wrapper {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 헤더 영역 */
+  header, .header, .navbar, nav {
+    background-color: #2d2d2d !important;
+    border-bottom: 1px solid #404040 !important;
+  }
+
+  /* 핵심 카드 클래스 - flip-card-front */
+  .flip-card-front {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* bg-success2 클래스를 검은색으로 */
+  .bg-success2 {
+    background-color: #000 !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* bottom-fixed 클래스 (인라인 스타일도 덮어쓰기) */
+  .bottom-fixed {
+    background-color: #000 !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 인라인 스타일이 있는 bottom-fixed div도 강제 적용 */
+  div.bottom-fixed[style] {
+    background-color: #000 !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 기타 카드 요소들 */
+  .card, .study-card, .word-card, .flashcard, .flash-card {
+    background-color: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 입력 요소들 */
+  input, textarea, select {
+    background-color: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: #888 !important;
+  }
+
+  /* 버튼들 */
+  .btn, button {
+    background-color: #3d3d3d !important;
+    border: 1px solid #555 !important;
+    color: #e0e0e0 !important;
+  }
+
+  .btn:hover, button:hover {
+    background-color: #4d4d4d !important;
+  }
+
+  /* 기본 버튼 스타일들 */
+  .btn-primary {
+    background-color: #0d7377 !important;
+    border-color: #0d7377 !important;
+  }
+
+  .btn-secondary {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+  }
+
+  .btn-success {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+  }
+
+  /* 테이블 */
+  table, .table {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+  }
+
+  table th, .table th {
+    background-color: #3d3d3d !important;
+    border-color: #404040 !important;
+    color: #e0e0e0 !important;
+  }
+
+  table td, .table td {
+    border-color: #404040 !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 드롭다운 메뉴 */
+  .dropdown-menu {
+    background-color: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+  }
+
+  .dropdown-item {
+    color: #e0e0e0 !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: #3d3d3d !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 모달 */
+  .modal-content {
+    background-color: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+  }
+
+  .modal-header {
+    border-bottom: 1px solid #404040 !important;
+  }
+
+  .modal-footer {
+    border-top: 1px solid #404040 !important;
+  }
+
+  /* 링크 */
+  a {
+    color: #66b3ff !important;
+  }
+
+  a:hover {
+    color: #99ccff !important;
+  }
+
+  /* 알림과 배지 */
+  .alert {
+    background-color: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+  }
+
+  .badge {
+    background-color: #3d3d3d !important;
+    color: #e0e0e0 !important;
+  }
+
+  /* 진행률 바 */
+  .progress {
+    background-color: #3d3d3d !important;
+  }
+
+  .progress-bar {
+    background-color: #0d7377 !important;
+  }
+
+  /* 일반적인 클래스들 */
+  .bg-white {
+    background-color: #2d2d2d !important;
+  }
+
+  .bg-light {
+    background-color: #3d3d3d !important;
+  }
+
+  .text-dark {
+    color: #e0e0e0 !important;
+  }
+
+  .text-muted {
+    color: #888 !important;
+  }
+
+  .border {
+    border-color: #404040 !important;
+  }
+
+  /* 스크롤바 */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #2d2d2d;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777;
+  }
+
+  /* 텍스트 선택 */
+  ::selection {
+    background-color: #0d7377;
+    color: #ffffff;
+  }
+}

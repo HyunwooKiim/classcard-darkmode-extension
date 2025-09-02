@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Classcard Dark Mode",
+  "version": "1.0",
+  "description": "Add dark mode to Classcard website",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.classcard.net/*",
+        "*://classcard.net/*"
+      ],
+      "css": ["darkmode.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Classcard Dark Mode"
+  }
+}

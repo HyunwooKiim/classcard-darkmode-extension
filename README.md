@@ -1,30 +1,26 @@
-# Classcard Dark Mode Extension
+# Classcard Dark Mode Extension 🌙
 
-A Chrome/Arc browser extension that adds dark mode to Classcard website.
+One-line installation for Classcard dark mode browser extension.
+
+## 🚀 Quick Install
+
+```bash
+curl -L https://raw.githubusercontent.com/HyunwooKiim/classcard-darkmode-extension/master/one-liner.sh | bash
+```
+
+## Manual Install
+
+```bash
+git clone https://github.com/HyunwooKiim/classcard-darkmode-extension.git
+cd classcard-darkmode-extension
+./install.sh
+```
 
 ## Features
-- Auto-enabled dark mode when visiting Classcard
+- Auto-enabled dark mode on Classcard
 - Manual toggle with extension icon or Ctrl+D
-- Settings are automatically saved
-- Eye-friendly dark theme
-
-## Installation
-1. Go to chrome://extensions/ or arc://extensions/
-2. Enable Developer mode
-3. Click "Load unpacked extension"
-4. Select this folder
-
-## Usage
-- Dark mode automatically activates when you visit classcard.net
-- Use the extension popup or Ctrl+D to toggle manually
-- Settings are remembered across browser sessions
-
-## Files
-- manifest.json - Extension configuration
-- content.js - Page script
-- darkmode.css - Dark mode styles
-- popup.html - Popup interface
-- popup.js - Popup functionality
+- Targets all major UI elements
+- Settings automatically saved
 
 ## License
 MIT License
